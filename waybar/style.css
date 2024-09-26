@@ -2,7 +2,7 @@
 
 * {
   font-size: 16px;
-  font-family: "CaskaydiaCove Nerd Font";
+  font-family: "Terminess Nerd Font";
 }
 
 window#waybar {
@@ -21,49 +21,46 @@ window#waybar.empty #window {
 }
 
 .modules-right {
-  background: rgba(72, 72, 72, 0.0);
+  background: rgba(72, 72, 72, 0);
   border-radius: 0px;
   padding: 0px 20px 0px 0px;
   font-weight: bold;
 }
 
 .modules-center {
-  background: rgba(72, 72, 72, 0.0);
+  background: rgba(72, 72, 72, 0);
   border-radius: 20px;
   padding: 0px 4px 0px 12px;
   font-weight: bold;
 }
 
 #window {
-  color: #51FFEE;
+  color: #51ffee;
   background-color: #484848;
   font-weight: bold;
   border-radius: 5px;
   margin: 6px 0px 5px 3px;
   padding: 0px 7px 0px 7px;
-  border-bottom: 4px solid #047A6F;
-  border-right: 2px solid #047A6F;
-   border-top: 2px solid #70E7CA;
-  border-left: 1px solid #70E7CA;
+  border-bottom: 4px solid #047a6f;
+  border-right: 2px solid #047a6f;
+  border-top: 2px solid #70e7ca;
+  border-left: 1px solid #70e7ca;
 }
 
-
 #workspaces button {
-  background-color: #FFFFFF;
+  background-color: #030a66;
   border-radius: 5px;
   margin: 5px 2px 5px 0px;
   padding: 6px 6px 6px 6px;
   color: @text;
   font-weight: bold;
-  border: 2px solid #FF66B2;
-
+  border: 2px solid #e5004c;
 }
 
 #workspaces button.active {
   color: #ffffff;
-  background: #ed93bd;
+  background: #c42b54;
   border-radius: 5px;
-
 }
 
 #taskbar {
@@ -90,23 +87,19 @@ window#waybar.empty #window {
   opacity: 0.8;
 }
 
-
-
 #tray,
 #backlight,
 #pulseaudio,
 #battery,
 #custom-cpu,
 #custom-gpu {
-
-    border-radius: 15px;
-    border-right: 2px solid #047A6F;
-    margin: 3px 0px 0px 1.5px;
-    padding: 0px 7px 0px 7px;
-    border-bottom: 4px solid #047A6F;
-     border-top: 2px solid #70E7CA;
-  border-left: 1px solid #70E7CA;
-
+  border-radius: 15px;
+  border-right: 2px solid #047a6f;
+  margin: 3px 0px 0px 1.5px;
+  padding: 0px 7px 0px 7px;
+  border-bottom: 4px solid #047a6f;
+  border-top: 2px solid #70e7ca;
+  border-left: 1px solid #70e7ca;
 }
 #custom-cpu {
   color: @lavender;
@@ -124,10 +117,10 @@ window#waybar.empty #window {
 #custom-craft,
 #custom-steam,
 #battery {
-  color: #1b4ec4;
-  border: 2px solid #FF66B2;
-  margin: 5px 0px 6px 2px ;
-  background-color: #FFFFFF;
+  color: #cd003d;
+  border: 2px solid #e5004c;
+  margin: 5px 0px 6px 2px;
+  background-color: #030a66;
   border-radius: 5px;
   padding: 0px 7px 0px 7px;
 }
@@ -135,17 +128,14 @@ window#waybar.empty #window {
 #clock {
   padding: 0px 7px 0px 7px;
   padding-top: 0px;
-  color: @text;
+  color: #cd003d;
 }
 
 #custom-wofi {
   padding: 0px 0px 0px 4px;
-  color: @text;
- border: 2px solid #FF66B2;
-  margin: 5px 10px 5px 0px ;
-  background-color: #FFFFFF;
+  color: #cd003d;
+  border: 2px solid #e5004c;
+  margin: 5px 10px 5px 0px;
+  background-color: #030a66;
   border-radius: 5px;
-} 
-
-
-
+}
